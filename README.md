@@ -87,5 +87,49 @@ After downloading, verify the SHA-256 checksum when a checksum is provided.
 
 Open PowerShell:
 
+3️⃣ Create a Bootable USB
+
+You will need:
+
+.Windows 11 Lite ISO
+.USB flash drive
+.At least 8 GB USB
+.Rufus or another suitable bootable-media tool
+
+⚠️ Creating bootable installation media may erase the USB drive.
+
+Back up important files first.
+
+4️⃣ Boot From USB
+1. Insert the bootable USB.
+2. Restart the computer.
+3. Open the Boot Menu.
+4. Select the USB drive.
+5. Start Windows Setup.
+
+Common Boot Menu keys:
+
+F12 · F11 · F9 · Esc · F8
+
+The correct key depends on your computer manufacturer.
+
+5️⃣ Windows Setup
+
+When Windows Setup starts:
+
+1. Select your language.
+2. Select your region/time format.
+3. Select your keyboard layout.
+4. Continue with Windows Setup.
+Follow the installation instructions.
+6️⃣ Select the Installation Drive
+
+For a clean installation, carefully select the correct target drive and partition.
+
+⚠️ IMPORTANT
+
+Formatting or deleting partitions can permanently delete your data.
+
+Back up important files before installation.
 ```powershell
 Get-FileHash "C:\Path\Scientist272-Window-11-Litex64 (latest version).iso" -Algorithm SHA256
